@@ -31,7 +31,7 @@ function App() {
 
   return (
     <div className="game-container">
-      <h1>Rock Paper Scissors</h1>
+      <h1>Welcome to Rock Paper Scissors</h1>
       <div className="choices">
         {choices.map((choice) => (
           <button key={choice} onClick={() => handleClick(choice)} className="choice-btn">
